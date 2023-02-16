@@ -28,8 +28,8 @@ function App() {
             about building accessible web apps that users love.
           </p>
           <a
-            className="border-b-2 border-solid border-green font-bold text-white"
-            href=""
+            className="border-b-2 border-solid border-green font-bold text-white pb-2.5"
+            href="mailto:jabanashvilimegi@gmail.com"
           >
             CONTACT ME{" "}
           </a>
@@ -45,7 +45,63 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="w-full bg-white h-1 mt-16"></div>
+      <div className="w-full bg-white h-px mt-16"></div>
+      <section className="w-full mt-16">
+        <div className="w-full flex">
+          <div className="w-1/3">
+            <h3 className="text-white text-5xl font-bold mb-3.5">HTML</h3>
+            <p className="text-grey text-lg font-medium">2 Years Experience</p>
+          </div>
+          <div className="w-1/3">
+            <h3 className="text-white text-5xl font-bold mb-3.5">CSS</h3>
+            <p className="text-grey text-lg font-medium">2 Years Experience</p>
+          </div>
+          <div className="w-1/3">
+            <h3 className="text-white text-5xl font-bold mb-3.5">Javascript</h3>
+            <p className="text-grey text-lg font-medium">2 Years Experience</p>
+          </div>
+        </div>
+        <div className="w-full flex mt-16">
+          <div className="w-1/3">
+            <h3 className="text-white text-5xl font-bold mb-3.5">React</h3>
+            <p className="text-grey text-lg font-medium">
+              Less Than a Year Experiece
+            </p>
+          </div>
+          <div className="w-1/3">
+            <h3 className="text-white text-5xl font-bold mb-3.5">Typescript</h3>
+            <p className="text-grey text-lg font-medium">
+              Less Than a Year Experiece
+            </p>
+          </div>
+          <div className="w-1/3">
+            <h3 className="text-white text-5xl font-bold mb-3.5">
+              Tailwind CSS
+            </h3>
+            <p className="text-grey text-lg font-medium">
+              Less Than a Year Experiece
+            </p>
+          </div>
+        </div>
+        <div className="w-full flex mt-16">
+          <div className="w-1/3">
+            <h3 className="text-white text-5xl font-bold mb-3.5">
+              Styled Components
+            </h3>
+            <p className="text-grey text-lg font-medium">
+              Less Than a Year Experiece
+            </p>
+          </div>
+          <div className="w-1/3">
+            <h3 className="text-white text-5xl font-bold mb-3.5">GIT</h3>
+            <p className="text-grey text-lg font-medium">1 Year Experiece</p>
+          </div>
+          <div className="w-1/3">
+            <h3 className="text-white text-5xl font-bold mb-3.5">SCSS</h3>
+            <p className="text-grey text-lg font-medium">1 Year Experiece</p>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
