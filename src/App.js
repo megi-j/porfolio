@@ -1,13 +1,16 @@
 import github from "./images/github.png";
 import linkdin from "./images/linkdin.png";
 import rgoli from "./images/rgoli.png";
+import planet from "./images/planet.png";
+import githubProject from "./images/githubProject.png";
+import tipCalculator from "./images/tipCalculator.png";
+import restaurant from "./images/restaurant.png";
+import todo from "./images/todo.png";
+import bootcamp from "./images/bootcamp.png";
 
 function App() {
   return (
-    <div
-      className="container max-w-screen-2xl bg-black01 py-10 px-40"
-      // style={{ height: "100vh" }}
-    >
+    <div className="container max-w-screen-2xl bg-black01 py-10 px-40">
       <header>
         <div className="text-white text-3xl font-bold">Megi Jabanashvili</div>
       </header>
@@ -99,6 +102,47 @@ function App() {
           <div className="w-1/3">
             <h3 className="text-white text-5xl font-bold mb-3.5">SCSS</h3>
             <p className="text-grey text-lg font-medium">1 Year Experiece</p>
+          </div>
+        </div>
+      </section>
+      <section className="w-full mt-36">
+        <h1 className="text-white font-bold text-7xl mb-20">Projects</h1>
+        <div className="flex flex-wrap gap-y-16 justify-between">
+          <div className="w-[500px] h-[400px]">
+            <img className="w-full h-[80%]" src={planet} alt="" />
+            <h5 className="text-white font-bold text-2xl">PLANETS FACT SITE</h5>
+            <p className="text-grey font-medium text-lg">
+              REACT, TYPESCRIPT, STYLED COMPONENTS
+            </p>
+          </div>
+          <div className="w-[500px] h-[400px]">
+            <img className="w-full h-[80%]" src={githubProject} alt="" />
+            <h5 className="text-white font-bold text-2xl">
+              GITHUB USER SEARCH
+            </h5>
+            <p className="text-grey font-medium text-lg">REACT</p>
+          </div>
+          <div className="w-[500px] h-[400px]">
+            <img className="w-full h-[80%]" src={tipCalculator} alt="" />
+            <h5 className="text-white font-bold text-2xl">TIP CALCULATOR</h5>
+            <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
+          </div>
+          <div className="w-[500px] h-[400px]">
+            <img className="w-full h-[80%]" src={restaurant} alt="" />
+            <h5 className="text-white font-bold text-2xl">RESTAURANT APP</h5>
+            <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
+          </div>
+          <div className="w-[500px] h-[400px]">
+            <img className="w-full h-[80%]" src={todo} alt="" />
+            <h5 className="text-white font-bold text-2xl">TODO APP</h5>
+            <p className="text-grey font-medium text-lg">
+              HTML CSS REACT TYPESCRIPT
+            </p>
+          </div>
+          <div className="w-[500px] h-[400px]">
+            <img className="w-full h-[80%]" src={bootcamp} alt="" />
+            <h5 className="text-white font-bold text-2xl">TBILISI BOOTCAMP</h5>
+            <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
           </div>
         </div>
       </section>
