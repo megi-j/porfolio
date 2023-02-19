@@ -39,10 +39,13 @@ function App() {
         </div>
         <div className="w-96 bg-black02 p-10 flex justify-end mt-[-150px]">
           <div className="w-20 flex justify-between">
-            <a href="">
+            <a href="https://github.com/megi-j" target="_blank">
               <img src={github} alt="" />
             </a>
-            <a href="">
+            <a
+              href="https://www.linkedin.com/in/megi-jabanashvili-3666251b3/"
+              target="_blank"
+            >
               <img src={linkdin} alt="" />
             </a>
           </div>
@@ -109,12 +112,20 @@ function App() {
         <h1 className="text-white font-bold text-7xl mb-20">Projects</h1>
         <div className="flex flex-wrap gap-y-16 justify-between">
           <div className="w-[500px] h-[400px] relative">
-            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
               <a
-                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
-                href=""
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
+                href="https://megi-j.github.io/planets-fact-site/"
+                target="_blank"
               >
                 VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px]"
+                href="https://github.com/megi-j/planets-fact-site"
+                target="_blank"
+              >
+                VIEW CODE
               </a>
             </div>
             <img className="w-full h-[80%]" src={planet} alt="" />
@@ -124,27 +135,43 @@ function App() {
             </p>
           </div>
           <div className="w-[500px] h-[400px] relative">
-            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
               <a
-                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
-                href=""
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
+                href="https://megi-j.github.io/github-user-search-app/"
+                target="_blank"
               >
                 VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px]"
+                href="https://github.com/megi-j/github-user-search-app"
+                target="_blank"
+              >
+                VIEW CODE
               </a>
             </div>
             <img className="w-full h-[80%]" src={githubProject} alt="" />
             <h5 className="text-white font-bold text-2xl">
               GITHUB USER SEARCH
             </h5>
-            <p className="text-grey font-medium text-lg">REACT</p>
+            <p className="text-grey font-medium text-lg">REACT API</p>
           </div>
           <div className="w-[500px] h-[400px] relative">
-            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
               <a
-                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
-                href=""
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
+                href="https://megi-j.github.io/Tip-Calculator-App-/"
+                target="_blank"
               >
                 VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px]"
+                href="https://github.com/megi-j/Tip-Calculator-App-"
+                target="_blank"
+              >
+                VIEW CODE
               </a>
             </div>
             <img className="w-full h-[80%]" src={tipCalculator} alt="" />
@@ -152,12 +179,20 @@ function App() {
             <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
           </div>
           <div className="w-[500px] h-[400px] relative">
-            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
               <a
-                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
-                href=""
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
+                href="https://megi-j.github.io/react-project/"
+                target="_blank"
               >
                 VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px]"
+                href="https://github.com/megi-j/react-project"
+                target="_blank"
+              >
+                VIEW CODE
               </a>
             </div>
             <img className="w-full h-[80%]" src={restaurant} alt="" />
@@ -165,12 +200,20 @@ function App() {
             <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
           </div>
           <div className="w-[500px] h-[400px] relative">
-            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
               <a
-                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
-                href=""
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
+                href="https://megi-j.github.io/todo/"
+                target="_blank"
               >
                 VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px]"
+                href="https://github.com/megi-j/todo"
+                target="_blank"
+              >
+                VIEW CODE
               </a>
             </div>
             <img className="w-full h-[80%]" src={todo} alt="" />
@@ -180,12 +223,20 @@ function App() {
             </p>
           </div>
           <div className="w-[500px] h-[400px] relative">
-            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
               <a
-                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
-                href=""
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
+                href="https://megi-j.github.io/tbilisi-bootcamp/"
+                target="_blank"
               >
                 VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px]"
+                href="https://github.com/megi-j/tbilisi-bootcamp"
+                target="_blank"
+              >
+                VIEW CODE
               </a>
             </div>
             <img className="w-full h-[80%]" src={bootcamp} alt="" />
@@ -198,10 +249,10 @@ function App() {
       <footer className="w-full mt-12 flex justify-between">
         <h2 className="text-white text-3xl font-bold">Megi Jabanashvili</h2>
         <div className="w-20 flex justify-between">
-          <a href="">
+          <a href="https://github.com/megi-j">
             <img src={github} alt="" />
           </a>
-          <a href="">
+          <a href="https://www.linkedin.com/in/megi-jabanashvili-3666251b3/">
             <img src={linkdin} alt="" />
           </a>
         </div>
