@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="container max-w-screen-2xl bg-black01 py-10 px-40">
       <header>
-        <div className="text-white text-3xl font-bold">Megi Jabanashvili</div>
+        <h2 className="text-white text-3xl font-bold">Megi Jabanashvili</h2>
       </header>
       <section className="w-full flex mt-16">
         <div>
@@ -108,44 +108,104 @@ function App() {
       <section className="w-full mt-36">
         <h1 className="text-white font-bold text-7xl mb-20">Projects</h1>
         <div className="flex flex-wrap gap-y-16 justify-between">
-          <div className="w-[500px] h-[400px]">
+          <div className="w-[500px] h-[400px] relative">
+            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
+                href=""
+              >
+                VIEW PROJECT
+              </a>
+            </div>
             <img className="w-full h-[80%]" src={planet} alt="" />
             <h5 className="text-white font-bold text-2xl">PLANETS FACT SITE</h5>
             <p className="text-grey font-medium text-lg">
               REACT, TYPESCRIPT, STYLED COMPONENTS
             </p>
           </div>
-          <div className="w-[500px] h-[400px]">
+          <div className="w-[500px] h-[400px] relative">
+            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
+                href=""
+              >
+                VIEW PROJECT
+              </a>
+            </div>
             <img className="w-full h-[80%]" src={githubProject} alt="" />
             <h5 className="text-white font-bold text-2xl">
               GITHUB USER SEARCH
             </h5>
             <p className="text-grey font-medium text-lg">REACT</p>
           </div>
-          <div className="w-[500px] h-[400px]">
+          <div className="w-[500px] h-[400px] relative">
+            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
+                href=""
+              >
+                VIEW PROJECT
+              </a>
+            </div>
             <img className="w-full h-[80%]" src={tipCalculator} alt="" />
             <h5 className="text-white font-bold text-2xl">TIP CALCULATOR</h5>
             <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
           </div>
-          <div className="w-[500px] h-[400px]">
+          <div className="w-[500px] h-[400px] relative">
+            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
+                href=""
+              >
+                VIEW PROJECT
+              </a>
+            </div>
             <img className="w-full h-[80%]" src={restaurant} alt="" />
             <h5 className="text-white font-bold text-2xl">RESTAURANT APP</h5>
             <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
           </div>
-          <div className="w-[500px] h-[400px]">
+          <div className="w-[500px] h-[400px] relative">
+            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
+                href=""
+              >
+                VIEW PROJECT
+              </a>
+            </div>
             <img className="w-full h-[80%]" src={todo} alt="" />
             <h5 className="text-white font-bold text-2xl">TODO APP</h5>
             <p className="text-grey font-medium text-lg">
               HTML CSS REACT TYPESCRIPT
             </p>
           </div>
-          <div className="w-[500px] h-[400px]">
+          <div className="w-[500px] h-[400px] relative">
+            <div className="absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center items-center text-white02 hover:text-white">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 hover:border-green"
+                href=""
+              >
+                VIEW PROJECT
+              </a>
+            </div>
             <img className="w-full h-[80%]" src={bootcamp} alt="" />
             <h5 className="text-white font-bold text-2xl">TBILISI BOOTCAMP</h5>
             <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
           </div>
         </div>
       </section>
+      <div className="w-full bg-white h-px mt-16"></div>
+      <footer className="w-full mt-12 flex justify-between">
+        <h2 className="text-white text-3xl font-bold">Megi Jabanashvili</h2>
+        <div className="w-20 flex justify-between">
+          <a href="">
+            <img src={github} alt="" />
+          </a>
+          <a href="">
+            <img src={linkdin} alt="" />
+          </a>
+        </div>
+      </footer>
     </div>
   );
 }
