@@ -7,10 +7,10 @@ import tipCalculator from "./images/tipCalculator.png";
 import restaurant from "./images/restaurant.png";
 import todo from "./images/todo.png";
 import bootcamp from "./images/bootcamp.png";
-
+import megi from "./images/megi.png";
 function App() {
   return (
-    <div className="container max-w-screen-2xl bg-black01 py-10 px-40">
+    <div className="container tablet:bg-black01 py-10 px-40">
       <header>
         <h2 className="text-white text-3xl font-bold">Megi Jabanashvili</h2>
       </header>
@@ -37,18 +37,24 @@ function App() {
             CONTACT ME{" "}
           </a>
         </div>
-        <div className="w-96 bg-black02 p-10 flex justify-end mt-[-150px]">
-          <div className="w-20 flex justify-between">
-            <a href="https://github.com/megi-j" target="_blank">
+        <div className="w-96 bg-black02 pt-10 flex flex-col justify-between mt-[-150px]">
+          <div className="w-full flex justify-end">
+            <a
+              className="mr-8"
+              href="https://github.com/megi-j"
+              target="_blank"
+            >
               <img src={github} alt="" />
             </a>
             <a
+              className="mr-8"
               href="https://www.linkedin.com/in/megi-jabanashvili-3666251b3/"
               target="_blank"
             >
               <img src={linkdin} alt="" />
             </a>
           </div>
+          <img className="w-full h-[80%]" src={megi} alt="" />
         </div>
       </section>
       <div className="w-full bg-white h-px mt-16"></div>

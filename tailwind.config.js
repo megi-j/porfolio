@@ -20,6 +20,11 @@ module.exports = {
       fontFamily: {
         font: "Space Grotesk",
       },
+      screens: {
+        mobile: "375px",
+        tablet: "768px",
+        desktop: "1440px",
+      },
     },
   },
   plugins: [],
