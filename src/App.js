@@ -8,25 +8,31 @@ import restaurant from "./images/restaurant.png";
 import todo from "./images/todo.png";
 import bootcamp from "./images/bootcamp.png";
 import megi from "./images/megi.png";
+import rgoli1 from "./images/rgoli1.png";
 function App() {
   return (
-    <div className="container tablet:bg-black01 py-10 px-40">
+    <div className="container bg-black01 tablet:py-10 tablet:px-40 mobile:pl-[30px] mobile:py-[30px]">
       <header>
         <h2 className="text-white text-3xl font-bold">Megi Jabanashvili</h2>
       </header>
       <section className="w-full flex mt-16">
-        <div>
-          <img className="bg-black01 ml-[-160px]" src={rgoli} alt="" />
-          <h1 className="text-white text-7xl font-bold mt-[-50px]">
+        <div className="mobile:w-[60%] mobile:z-10">
+          <img
+            className="bg-black01 ml-[-160px] hidden tablet:block"
+            src={rgoli}
+            alt=""
+          />
+          {/* <img className="mobile: hidden" src={rgoli1} alt="" /> */}
+          <h1 className="text-white tablet:text-[88px] font-bold mt-[-50px] mobile:text-7xl">
             Nice to meet you!
           </h1>
-          <h1 className="text-white text-7xl font-bold mb-16">
+          <h1 className="text-white tablet:text-[88px] font-bold mb-16 mobile:text-7xl">
             I’m{" "}
-            <span className="border-b-8 border-solid border-green font-bold">
+            <span className="tablet:border-b-8 tablet:border-solid tablet:border-green font-bold mobile:border-b-[6px] mobile:border-solid mobile:border-green">
               Megi Jabanashvili
             </span>
           </h1>
-          <p className="text-grey text-lg w-1/3 font-medium mb-16">
+          <p className="text-grey text-lg tablet:w-1/3 font-medium mb-16 mobile:w-full">
             Based in the Tbilisi, Georgia, I’m a front-end developer passionate
             about building accessible web apps that users love.
           </p>
@@ -37,7 +43,7 @@ function App() {
             CONTACT ME{" "}
           </a>
         </div>
-        <div className="w-96 bg-black02 pt-10 flex flex-col justify-between mt-[-150px]">
+        <div className="tablet:w-96 bg-black02 pt-10 flex flex-col justify-between mt-[-150px] mobile:w-[322px] mobile:h-[600px]">
           <div className="w-full flex justify-end">
             <a
               className="mr-8"
@@ -59,34 +65,34 @@ function App() {
       </section>
       <div className="w-full bg-white h-px mt-16"></div>
       <section className="w-full mt-16">
-        <div className="w-full flex">
-          <div className="w-1/3">
+        <div className="w-full flex flex-wrap">
+          <div className="w-[280px] h-[100px]">
             <h3 className="text-white text-5xl font-bold mb-3.5">HTML</h3>
             <p className="text-grey text-lg font-medium">2 Years Experience</p>
           </div>
-          <div className="w-1/3">
+          <div className="w-[280px] h-[100px]">
             <h3 className="text-white text-5xl font-bold mb-3.5">CSS</h3>
             <p className="text-grey text-lg font-medium">2 Years Experience</p>
           </div>
-          <div className="w-1/3">
+          <div className="w-[280px] h-[100px]">
             <h3 className="text-white text-5xl font-bold mb-3.5">Javascript</h3>
             <p className="text-grey text-lg font-medium">2 Years Experience</p>
           </div>
         </div>
-        <div className="w-full flex mt-16">
-          <div className="w-1/3">
+        <div className="w-full flex mt-16 flex-wrap">
+          <div className="w-[280px] h-[100px]">
             <h3 className="text-white text-5xl font-bold mb-3.5">React</h3>
             <p className="text-grey text-lg font-medium">
               Less Than a Year Experiece
             </p>
           </div>
-          <div className="w-1/3">
+          <div className="w-[280px] h-[100px]">
             <h3 className="text-white text-5xl font-bold mb-3.5">Typescript</h3>
             <p className="text-grey text-lg font-medium">
               Less Than a Year Experiece
             </p>
           </div>
-          <div className="w-1/3">
+          <div className="w-[280px] h-[100px]">
             <h3 className="text-white text-5xl font-bold mb-3.5">
               Tailwind CSS
             </h3>
@@ -95,8 +101,8 @@ function App() {
             </p>
           </div>
         </div>
-        <div className="w-full flex mt-16">
-          <div className="w-1/3">
+        <div className="w-full flex mt-16 flex-wrap">
+          <div className="w-[280px] h-[100px]">
             <h3 className="text-white text-5xl font-bold mb-3.5">
               Styled Components
             </h3>
@@ -104,11 +110,11 @@ function App() {
               Less Than a Year Experiece
             </p>
           </div>
-          <div className="w-1/3">
+          <div className="w-[280px] h-[100px]">
             <h3 className="text-white text-5xl font-bold mb-3.5">GIT</h3>
             <p className="text-grey text-lg font-medium">1 Year Experiece</p>
           </div>
-          <div className="w-1/3">
+          <div className="w-[280px] h-[100px]">
             <h3 className="text-white text-5xl font-bold mb-3.5">SCSS</h3>
             <p className="text-grey text-lg font-medium">1 Year Experiece</p>
           </div>
