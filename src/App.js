@@ -126,9 +126,9 @@ function App() {
         <h1 className="text-white font-bold tablet:text-[88px] mb-20 mobile:text-7xl">
           Projects
         </h1>
-        <div className="flex flex-wrap gap-y-16 justify-between mobile:pr-[30px]">
+        <div className="flex flex-wrap gap-y-16 justify-between mobile:pr-[30px] mobile:gap-y-32">
           <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
-            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
                 href="https://megi-j.github.io/planets-fact-site/"
@@ -151,9 +151,26 @@ function App() {
             <p className="text-grey font-medium text-lg">
               REACT, TYPESCRIPT, STYLED COMPONENTS
             </p>
+
+            <div className="tablet:hidden mobile:block text-white mt-[20px]">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
+                href="https://megi-j.github.io/planets-fact-site/"
+                target="_blank"
+              >
+                VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
+                href="https://github.com/megi-j/planets-fact-site"
+                target="_blank"
+              >
+                VIEW CODE
+              </a>
+            </div>
           </div>
           <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
-            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
                 href="https://megi-j.github.io/github-user-search-app/"
@@ -174,9 +191,26 @@ function App() {
               GITHUB USER SEARCH
             </h5>
             <p className="text-grey font-medium text-lg">REACT API</p>
+
+            <div className="tablet:hidden mobile:block text-white mt-[20px]">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
+                href="https://megi-j.github.io/planets-fact-site/"
+                target="_blank"
+              >
+                VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
+                href="https://github.com/megi-j/planets-fact-site"
+                target="_blank"
+              >
+                VIEW CODE
+              </a>
+            </div>
           </div>
           <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
-            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
                 href="https://megi-j.github.io/Tip-Calculator-App-/"
@@ -197,9 +231,26 @@ function App() {
               TIP CALCULATOR
             </h5>
             <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
+
+            <div className="tablet:hidden mobile:block text-white mt-[20px]">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
+                href="https://megi-j.github.io/planets-fact-site/"
+                target="_blank"
+              >
+                VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
+                href="https://github.com/megi-j/planets-fact-site"
+                target="_blank"
+              >
+                VIEW CODE
+              </a>
+            </div>
           </div>
           <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
-            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
                 href="https://megi-j.github.io/react-project/"
@@ -220,9 +271,26 @@ function App() {
               RESTAURANT APP
             </h5>
             <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
+
+            <div className="tablet:hidden mobile:block text-white mt-[20px]">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
+                href="https://megi-j.github.io/planets-fact-site/"
+                target="_blank"
+              >
+                VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
+                href="https://github.com/megi-j/planets-fact-site"
+                target="_blank"
+              >
+                VIEW CODE
+              </a>
+            </div>
           </div>
           <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
-            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
                 href="https://megi-j.github.io/todo/"
@@ -245,9 +313,26 @@ function App() {
             <p className="text-grey font-medium text-lg">
               HTML CSS REACT TYPESCRIPT
             </p>
+
+            <div className="tablet:hidden mobile:block text-white mt-[20px]">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
+                href="https://megi-j.github.io/planets-fact-site/"
+                target="_blank"
+              >
+                VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
+                href="https://github.com/megi-j/planets-fact-site"
+                target="_blank"
+              >
+                VIEW CODE
+              </a>
+            </div>
           </div>
           <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
-            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all flex justify-center flex-col items-center text-white02 hover:text-white cursor-pointer">
+            <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
                 href="https://megi-j.github.io/tbilisi-bootcamp/"
@@ -268,10 +353,27 @@ function App() {
               TBILISI BOOTCAMP
             </h5>
             <p className="text-grey font-medium text-lg">HTML CSS REACT</p>
+
+            <div className="tablet:hidden mobile:block text-white mt-[20px]">
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
+                href="https://megi-j.github.io/planets-fact-site/"
+                target="_blank"
+              >
+                VIEW PROJECT
+              </a>
+              <a
+                className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
+                href="https://github.com/megi-j/planets-fact-site"
+                target="_blank"
+              >
+                VIEW CODE
+              </a>
+            </div>
           </div>
         </div>
       </section>
-      <div className="w-[95%] bg-white h-px mt-16"></div>
+      <div className="w-[95%] bg-white h-px mt-16 mobile:mt-24"></div>
       <footer className="w-full mt-12 flex justify-between">
         <h2 className="text-white text-3xl font-bold">Megi Jabanashvili</h2>
         <div className="w-20 flex justify-between mr-[30px]">
