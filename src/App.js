@@ -171,13 +171,14 @@ function App() {
           </p>
         </div>
         {/* </div> */}
+        <div className="w-[95%] bg-white h-px mt-16 small:mx-auto"></div>
       </section>
-      <section className="w-full mt-36">
-        <h1 className="text-white font-bold tablet:text-[88px] mb-20 mobile:text-7xl">
+      <section className="w-full mt-36 small:mt-[80px] small:p-[15px]">
+        <h1 className="text-white font-bold tablet:text-[88px] mb-20 mobile:text-7xl small:text-[40px] small:mb-[40px]">
           Projects
         </h1>
         <div className="flex flex-wrap gap-y-16 justify-between mobile:pr-[30px] mobile:gap-y-32">
-          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
+          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px] small:w-full">
             <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
@@ -194,7 +195,11 @@ function App() {
                 VIEW CODE
               </a>
             </div>
-            <img className="w-full h-[80%]" src={planet} alt="" />
+            <img
+              className="w-full h-[80%] small:h-[250px]"
+              src={planet}
+              alt=""
+            />
             <h5 className="text-white font-bold text-2xl mt-[20px] mb-[7px]">
               PLANETS FACT SITE
             </h5>
@@ -219,7 +224,7 @@ function App() {
               </a>
             </div>
           </div>
-          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
+          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px] small:w-full">
             <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
@@ -236,7 +241,11 @@ function App() {
                 VIEW CODE
               </a>
             </div>
-            <img className="w-full h-[80%]" src={githubProject} alt="" />
+            <img
+              className="w-full h-[80%] small:h-[250px]"
+              src={githubProject}
+              alt=""
+            />
             <h5 className="text-white font-bold text-2xl mt-[20px] mb-[7px]">
               GITHUB USER SEARCH
             </h5>
@@ -245,21 +254,21 @@ function App() {
             <div className="tablet:hidden mobile:block text-white mt-[20px]">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
-                href="https://megi-j.github.io/planets-fact-site/"
+                href="https://megi-j.github.io/github-user-search-app/"
                 target="_blank"
               >
                 VIEW PROJECT
               </a>
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
-                href="https://github.com/megi-j/planets-fact-site"
+                href="https://github.com/megi-j/github-user-search-app"
                 target="_blank"
               >
                 VIEW CODE
               </a>
             </div>
           </div>
-          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
+          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px] small:w-full">
             <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
@@ -276,7 +285,11 @@ function App() {
                 VIEW CODE
               </a>
             </div>
-            <img className="w-full h-[80%]" src={tipCalculator} alt="" />
+            <img
+              className="w-full h-[80%] small:h-[250px]"
+              src={tipCalculator}
+              alt=""
+            />
             <h5 className="text-white font-bold text-2xl mt-[20px] mb-[7px]">
               TIP CALCULATOR
             </h5>
@@ -285,21 +298,21 @@ function App() {
             <div className="tablet:hidden mobile:block text-white mt-[20px]">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
-                href="https://megi-j.github.io/planets-fact-site/"
+                href="https://megi-j.github.io/Tip-Calculator-App-/"
                 target="_blank"
               >
                 VIEW PROJECT
               </a>
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
-                href="https://github.com/megi-j/planets-fact-site"
+                href="https://github.com/megi-j/Tip-Calculator-App-"
                 target="_blank"
               >
                 VIEW CODE
               </a>
             </div>
           </div>
-          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
+          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px] small:w-full">
             <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
@@ -316,7 +329,11 @@ function App() {
                 VIEW CODE
               </a>
             </div>
-            <img className="w-full h-[80%]" src={restaurant} alt="" />
+            <img
+              className="w-full h-[80%] small:h-[250px]"
+              src={restaurant}
+              alt=""
+            />
             <h5 className="text-white font-bold text-2xl mt-[20px] mb-[7px]">
               RESTAURANT APP
             </h5>
@@ -325,21 +342,21 @@ function App() {
             <div className="tablet:hidden mobile:block text-white mt-[20px]">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
-                href="https://megi-j.github.io/planets-fact-site/"
+                href="https://megi-j.github.io/react-project/"
                 target="_blank"
               >
                 VIEW PROJECT
               </a>
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
-                href="https://github.com/megi-j/planets-fact-site"
+                href="https://github.com/megi-j/react-project"
                 target="_blank"
               >
                 VIEW CODE
               </a>
             </div>
           </div>
-          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
+          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px] small:w-full">
             <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
@@ -356,7 +373,7 @@ function App() {
                 VIEW CODE
               </a>
             </div>
-            <img className="w-full h-[80%]" src={todo} alt="" />
+            <img className="w-full h-[80%] small:h-[250px]" src={todo} alt="" />
             <h5 className="text-white font-bold text-2xl mt-[20px] mb-[7px]">
               TODO APP
             </h5>
@@ -367,21 +384,21 @@ function App() {
             <div className="tablet:hidden mobile:block text-white mt-[20px]">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
-                href="https://megi-j.github.io/planets-fact-site/"
+                href="https://megi-j.github.io/todo/"
                 target="_blank"
               >
                 VIEW PROJECT
               </a>
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
-                href="https://github.com/megi-j/planets-fact-site"
+                href="https://github.com/megi-j/todo"
                 target="_blank"
               >
                 VIEW CODE
               </a>
             </div>
           </div>
-          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px]">
+          <div className="tablet:w-[500px] h-[400px] relative mobile:w-[345px] small:w-full">
             <div className="group absolute bg-black03 top-0 left-0 w-full h-[80%] hover:bg-black04 transition-all hidden justify-center flex-col items-center text-white02 hover:text-white cursor-pointer tablet:flex">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green02 group-hover:border-green tracking-[2.28px] mb-12"
@@ -398,7 +415,11 @@ function App() {
                 VIEW CODE
               </a>
             </div>
-            <img className="w-full h-[80%]" src={bootcamp} alt="" />
+            <img
+              className="w-full h-[80%] small:h-[250px]"
+              src={bootcamp}
+              alt=""
+            />
             <h5 className="text-white font-bold text-2xl mt-[20px] mb-[7px]">
               TBILISI BOOTCAMP
             </h5>
@@ -407,14 +428,14 @@ function App() {
             <div className="tablet:hidden mobile:block text-white mt-[20px]">
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] mb-12 text-base"
-                href="https://megi-j.github.io/planets-fact-site/"
+                href="https://megi-j.github.io/tbilisi-bootcamp/"
                 target="_blank"
               >
                 VIEW PROJECT
               </a>
               <a
                 className="hover:text-green pb-2.5 border-b-2 border-solid border-green tracking-[2.28px] ml-[32px] mt-[20px] text-base"
-                href="https://github.com/megi-j/planets-fact-site"
+                href="https://github.com/megi-j/tbilisi-bootcamp"
                 target="_blank"
               >
                 VIEW CODE
@@ -423,9 +444,11 @@ function App() {
           </div>
         </div>
       </section>
-      <div className="w-[95%] bg-white h-px mt-16 mobile:mt-24"></div>
-      <footer className="w-full mt-12 flex justify-between">
-        <h2 className="text-white text-3xl font-bold">Megi Jabanashvili</h2>
+      <div className="w-[95%] bg-white h-px mt-16 mobile:mt-24 small:mx-auto"></div>
+      <footer className="w-full mt-12 flex justify-between small:flex-col small:justify-evenly small:items-center small:h-[170px] small:mt-0">
+        <h2 className="text-white text-3xl font-bold small:mb-[20px]">
+          Megi Jabanashvili
+        </h2>
         <div className="w-20 flex justify-between mr-[30px]">
           <a href="https://github.com/megi-j">
             <img src={github} alt="" />
