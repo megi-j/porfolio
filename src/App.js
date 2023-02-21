@@ -12,11 +12,11 @@ import rgoli1 from "./images/rgoli1.png";
 function App() {
   return (
     <div className="max-w-[1440px] m-0 mx-auto bg-black01 tablet:py-10 tablet:px-40 mobile:pl-[30px] mobile:py-[30px]">
-      <header>
+      <header className="small:hidden mobile:block">
         <h2 className="text-white text-3xl font-bold">Megi Jabanashvili</h2>
       </header>
-      <section className="w-full flex mt-16">
-        <div className="mobile:w-[60%] mobile:z-10">
+      <section className="w-full mobile:flex mobile:mt-16 mt-0">
+        <div className="mobile:w-[60%] mobile:z-10 small:hidden mobile:block">
           <img
             className="bg-black01 ml-[-160px] hidden tablet:block"
             src={rgoli}
@@ -47,8 +47,11 @@ function App() {
             CONTACT ME{" "}
           </a>
         </div>
-        <div className="tablet:w-96 bg-black02 pt-14 flex flex-col justify-between mt-[-150px] mobile:w-[322px] mobile:h-[600px] z-0">
-          <div className="w-full flex justify-end">
+        <div className="tablet:w-96 bg-black02 pt-[20px] mobile:pt-14 flex flex-col justify-center items-center mobile:justify-between mt-0 mobile:mt-[-150px] mobile:w-[322px] mobile:h-[600px] z-0 small:w-[174px] small:h-[383px] small:my-0 small:mx-auto">
+          <h2 className="text-white text-xl mb-[20px] font-bold mobile:hidden">
+            Megi Jabanashvili
+          </h2>
+          <div className="w-full flex justify-center mobile:justify-end">
             <a
               className="mr-8"
               href="https://github.com/megi-j"
@@ -66,59 +69,106 @@ function App() {
           </div>
           <img className="w-full h-[80%]" src={megi} alt="" />
         </div>
+        <div className="mobile:hidden small:flex flex-col justify-center items-center w-[95%] my-[40px] mx-auto">
+          <h1 className="text-white font-bold text-4xl text-center">
+            Nice to meet you!
+          </h1>
+          <h1 className="text-white font-bold text-3xl text-center mb-[20px]">
+            I’m{" "}
+            <span className="font-bold border-b-[4px] border-solid border-green">
+              Megi Jabanashvili
+            </span>
+          </h1>
+          <p className="text-grey text-[16px] font-medium mb-16 text-center">
+            Based in the Tbilisi, Georgia, I’m a front-end developer passionate
+            about building accessible web apps that users love.
+          </p>
+          <a
+            className="border-b-2 border-solid border-green font-bold text-white pb-2.5"
+            href="mailto:jabanashvilimegi@gmail.com"
+          >
+            CONTACT ME{" "}
+          </a>
+        </div>
       </section>
-      <div className="w-[95%] bg-white h-px mt-16"></div>
+      <div className="w-[95%] bg-white h-px mt-16 small:mx-auto"></div>
       <section className="w-full mt-16 flex flex-wrap justify-between">
         {/* <div className="w-full flex flex-wrap"> */}
-        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px]">
-          <h3 className="text-white text-5xl font-bold mb-3.5">HTML</h3>
-          <p className="text-grey text-lg font-medium">2 Years Experience</p>
-        </div>
-        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px]">
-          <h3 className="text-white text-5xl font-bold mb-3.5">CSS</h3>
-          <p className="text-grey text-lg font-medium">2 Years Experience</p>
-        </div>
-        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px]">
-          <h3 className="text-white text-5xl font-bold mb-3.5">Javascript</h3>
-          <p className="text-grey text-lg font-medium">2 Years Experience</p>
-        </div>
-        {/* </div> */}
-        {/* <div className="w-full flex mt-16 flex-wrap"> */}
-        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px]">
-          <h3 className="text-white text-5xl font-bold mb-3.5">React</h3>
-          <p className="text-grey text-lg font-medium">
-            Less Than a Year Experiece
+        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px] small:w-full small:mx-auto small:mt-6">
+          <h3 className="text-white text-5xl font-bold mb-3.5 small:text-center small:text-3xl">
+            HTML
+          </h3>
+          <p className="text-grey text-lg font-medium small:text-center small:text-base">
+            2 Years Experience
           </p>
         </div>
-        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px]">
-          <h3 className="text-white text-5xl font-bold mb-3.5">Typescript</h3>
-          <p className="text-grey text-lg font-medium">
-            Less Than a Year Experiece
+        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px] small:w-full small:mx-auto small:mt-6">
+          <h3 className="text-white text-5xl font-bold mb-3.5 small:text-center small:text-3xl">
+            CSS
+          </h3>
+          <p className="text-grey text-lg font-medium small:text-center small:text-base">
+            2 Years Experience
           </p>
         </div>
-        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px]">
-          <h3 className="text-white text-5xl font-bold mb-3.5">Tailwind CSS</h3>
-          <p className="text-grey text-lg font-medium">
-            Less Than a Year Experiece
+        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px] small:w-full small:mx-auto small:mt-6">
+          <h3 className="text-white text-5xl font-bold mb-3.5 small:text-center small:text-3xl">
+            Javascript
+          </h3>
+          <p className="text-grey text-lg font-medium small:text-center small:text-base">
+            2 Years Experience
           </p>
         </div>
         {/* </div> */}
         {/* <div className="w-full flex mt-16 flex-wrap"> */}
-        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px]">
-          <h3 className="text-white text-5xl font-bold mb-3.5">
+        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px] small:w-full small:mx-auto small:mt-6">
+          <h3 className="text-white text-5xl font-bold mb-3.5 small:text-center small:text-3xl">
+            React
+          </h3>
+          <p className="text-grey text-lg font-medium small:text-center small:text-base">
+            Less Than a Year Experiece
+          </p>
+        </div>
+        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px] small:w-full small:mx-auto small:mt-6">
+          <h3 className="text-white text-5xl font-bold mb-3.5 small:text-center small:text-3xl">
+            Typescript
+          </h3>
+          <p className="text-grey text-lg font-medium small:text-center small:text-base">
+            Less Than a Year Experiece
+          </p>
+        </div>
+        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px] small:w-full small:mx-auto small:mt-6">
+          <h3 className="text-white text-5xl font-bold mb-3.5 small:text-center small:text-3xl">
+            Tailwind CSS
+          </h3>
+          <p className="text-grey text-lg font-medium small:text-center small:text-base">
+            Less Than a Year Experiece
+          </p>
+        </div>
+        {/* </div> */}
+        {/* <div className="w-full flex mt-16 flex-wrap"> */}
+        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px] small:w-full small:mx-auto small:mt-6">
+          <h3 className="text-white text-5xl font-bold mb-3.5 small:text-center small:text-3xl">
             Styled Components
           </h3>
-          <p className="text-grey text-lg font-medium">
+          <p className="text-grey text-lg font-medium small:text-center small:text-base">
             Less Than a Year Experiece
           </p>
         </div>
-        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px]">
-          <h3 className="text-white text-5xl font-bold mb-3.5">GIT</h3>
-          <p className="text-grey text-lg font-medium">1 Year Experiece</p>
+        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px] small:w-full small:mx-auto small:mt-6">
+          <h3 className="text-white text-5xl font-bold mb-3.5 small:text-center small:text-3xl">
+            GIT
+          </h3>
+          <p className="text-grey text-lg font-medium small:text-base small:text-center">
+            1 Year Experiece
+          </p>
         </div>
-        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px]">
-          <h3 className="text-white text-5xl font-bold mb-3.5">SCSS</h3>
-          <p className="text-grey text-lg font-medium">1 Year Experiece</p>
+        <div className="tablet:w-[350px] h-[100px] mt-16 mobile:w-[300px] small:w-full small:mx-auto small:mt-6">
+          <h3 className="text-white text-5xl font-bold mb-3.5 small:text-center small:text-3xl">
+            SCSS
+          </h3>
+          <p className="text-grey text-lg font-medium small:text-base small:text-center">
+            1 Year Experiece
+          </p>
         </div>
         {/* </div> */}
       </section>
